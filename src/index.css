@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Logo'nun navbarın tam ortasında olmasını sağlayan CSS */
+.flex.items-center.justify-center {
+  flex: 1; /* Logo alanını genişletmek için */
+}
+
+/* Diğer stil özellikleri buraya eklenebilir */
+
+body {
+  font-family: "Bembo";
+}
